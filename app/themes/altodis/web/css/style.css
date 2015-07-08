@@ -2249,3 +2249,8 @@ Vertival margin, padding
     background-color: #ffdddd;
     border-color: darkred;
 }
+
+#site-page #works-grid,
+{
+    display: table;
+}
