@@ -40,7 +40,7 @@
             <h3 class="sidebar-title">Популярные туры</h3>
             <ul id="works-grid" class="works-grid works-grid-gut works-hover-w">
 
-                <?php foreach(Catalog::items(['pagination'=>['pageSize'=>6]]) as $item):?>
+                <?php foreach(Catalog::items(['pagination'=>['pageSize'=>3]]) as $item):?>
 
                     <!-- Portfolio item start -->
                     <li class="illustration webdesign">
