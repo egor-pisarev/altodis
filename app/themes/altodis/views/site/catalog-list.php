@@ -8,7 +8,7 @@
                 <?php foreach($items as $item):?>
 
                     <li class="work-item illustration webdesign">
-                        <a href="/site/catalog?slug=<?=$item->slug?>">
+                        <a href="/tours/<?=$item->slug?>">
                             <div class="title">
                                 <?=$item->title?>
                             </div>
@@ -25,7 +25,6 @@
                             </div>
                         </a>
                     </li>
-
                 <?php endforeach; ?>
 
             </ul>

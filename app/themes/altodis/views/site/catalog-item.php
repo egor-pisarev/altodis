@@ -44,7 +44,9 @@
 
                     <!-- Portfolio item start -->
                     <li class="illustration webdesign">
-                        <a href="/site/catalog?slug=<?=$item->slug?>">
+
+                        <a href="/tours/<?=$item->slug?>">
+
                             <div class="title">
                                 <?=$item->title?>
                             </div>
