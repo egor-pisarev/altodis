@@ -42,46 +42,46 @@
             <ul class="slides" >
                 <li class="clone" aria-hidden="true">
                     <div class="photo">
-                        <img src="/uploads/data/2.jpg">
+                        <img src="/uploads/data/review1.jpg">
                     </div>
                     <div class="name">
-                        Катя
+                        Максим
                     </div>
                     <div class="text">
-                        Ко всему сказанному можно добавить то, что наши продавцы-консультанты быстро и профессионально подберут всё, что Вам требуется.
+                        Ездили с Васей на Актру, все было прекрасно
                     </div>
                 </li>
                 <li class="clone" aria-hidden="true">
                     <div class="photo">
-                        <img src="/uploads/data/2.jpg">
+                        <img src="/uploads/data/review2.jpg">
                     </div>
                     <div class="name">
-                        Катя
+                        Егор
                     </div>
                     <div class="text">
-                        Ко всему сказанному можно добавить то, что наши продавцы-консультанты быстро и профессионально подберут всё, что Вам требуется.
+                        Побывал в нескольких поездках, мне очень понравилось. Участвовал  в сплавах и пеших маршрутах на Актру.
                     </div>
                 </li>
                 <li class="clone" aria-hidden="true">
                     <div class="photo">
-                        <img src="/uploads/data/2.jpg">
+                        <img src="/uploads/data/review3.jpg">
                     </div>
                     <div class="name">
-                        Катя
+                        Яна
                     </div>
                     <div class="text">
-                        Ко всему сказанному можно добавить то, что наши продавцы-консультанты быстро и профессионально подберут всё, что Вам требуется.
+                        Отличная поездка, огромное спасибо!
                     </div>
                 </li>
                 <li class="clone" aria-hidden="true">
                     <div class="photo">
-                        <img src="/uploads/data/2.jpg">
+                        <img src="/uploads/data/review4.jpg">
                     </div>
                     <div class="name">
-                        Катя
+                        Олег
                     </div>
                     <div class="text">
-                        Ко всему сказанному можно добавить то, что наши продавцы-консультанты быстро и профессионально подберут всё, что Вам требуется.
+                        Очень понравилась поездка по местам силы, не ожидал, что у нас есть такие интересные места! Спасибо огромное!
                     </div>
                 </li>
             </ul>

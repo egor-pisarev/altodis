@@ -63,8 +63,10 @@ $config = [
             'rules' => [
                 '/' => 'site/index',
                 '/albom'=>'site/gallery',
-                '/tury'=>'/site/catalog',
-                'tury/<slug>'=>'/site/catalog',
+                '/tours'=>'/site/catalog',
+                'tours/<slug>'=>'/site/catalog',
+                'node/<id>'=>'site/node',
+                'contact'=>'site/contact',
                 '<slug>'=>'/site/page',
                 '<c:\w+>/<a:\w+>',
                 '<c:\w+>/<id:\d+>' => '<c>/view',

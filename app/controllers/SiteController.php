@@ -84,7 +84,7 @@ class SiteController extends Controller
 
     public function actionContact()
     {
-        $this->layout = 'page';
+        $this->layout = 'main';
 
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
@@ -100,5 +100,22 @@ class SiteController extends Controller
                 'model' => $model,
             ]);
         }
+    }
+
+    public function actionNode($id)
+    {
+        $redirects = [
+            15=>['site/page','slug'=>'o-nas'],
+            24=>['site/gallery'],
+            20=>['site/contact'],
+            19=>['site/page','slug'=>'informatsiya'],
+            18=>['site/page','slug'=>'strana-altai'],
+        ];
+
+        if(!isset($redirects[$id])){
+            $this->redirect('/');
+        }
+
+        $this->redirect($redirects[$id]);
     }
 }

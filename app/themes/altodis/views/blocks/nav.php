@@ -27,7 +27,7 @@
                     ['label'=>'Отзывы','url'=>'/otzyvy'],
                     ['label'=>'Страна Алтай','url'=>'/strana-altai'],
                     ['label'=>'Информация','url'=>'/informatsiya'],
-                    ['label'=>'Контакты','url'=>'/kontakty'],
+                    ['label'=>'Контакты','url'=>'/contact'],
                 ],
                 'options'=>[
                     'class'=>'nav navbar-nav navbar-right',

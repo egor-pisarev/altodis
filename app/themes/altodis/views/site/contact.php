@@ -7,38 +7,19 @@ use yii\captcha\Captcha;
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model app\models\ContactForm */
 
-$this->title = 'Contact';
+$this->title = 'Контакты';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-contact">
+<div class="container">
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
-
-    <div class="alert alert-success">
-        Thank you for contacting us. We will respond to you as soon as possible.
-    </div>
-
-    <p>
-        Note that if you turn on the Yii debugger, you should be able
-        to view the mail message on the mail panel of the debugger.
-        <?php if (Yii::$app->mailer->useFileTransport): ?>
-        Because the application is in development mode, the email is not sent but saved as
-        a file under <code><?= Yii::getAlias(Yii::$app->mailer->fileTransportPath) ?></code>.
-        Please configure the <code>useFileTransport</code> property of the <code>mail</code>
-        application component to be false to enable email sending.
-        <?php endif; ?>
-    </p>
-
-    <?php else: ?>
-
-    <p>
-        If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
-    </p>
-
     <div class="row">
-        <div class="col-lg-5">
-            <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
+        <div class="col-lg-6">
+            <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
+
+            <?php else: ?>
+
+                <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
                 <?= $form->field($model, 'name') ?>
                 <?= $form->field($model, 'email') ?>
                 <?= $form->field($model, 'subject') ?>
@@ -47,11 +28,25 @@ $this->params['breadcrumbs'][] = $this->title;
                     'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
                 ]) ?>
                 <div class="form-group">
-                    <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
+                    <?= Html::submitButton('Отправить', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
                 </div>
-            <?php ActiveForm::end(); ?>
+                <?php ActiveForm::end(); ?>
+            <?php endif; ?>
         </div>
+        <div class="col-lg-6">
+            <ul class="lead" style="list-style: none; padding: 0px;">
+                <li><i class="fa fa-map-marker"></i> Барнаул, Россия, Красноармейский пр. 53/г </li>
+                <li><i class="fa fa-phone"></i> +7 (913) 139 46 44</li>
+                <li><i class="fa fa-envelope-o"></i> altodis@gmail.com</li>
+            </ul>
+
+            <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=FmJ2Q4mHwfBTCeCJ-JYJocYzX7DIuDUl&width=600&height=450"></script>
+        </div>
+
     </div>
 
-    <?php endif; ?>
 </div>
+
+
+
+
