@@ -22,7 +22,7 @@
             <?=\yii\bootstrap\Nav::widget([
                 'items'=>[
                     ['label'=>'О нас','url'=>'/o-nas'],
-                    ['label'=>'Туры','url'=>'/tury'],
+                    ['label'=>'Туры','url'=>'/tours'],
                     ['label'=>'Альбом','url'=>'/albom'],
                     ['label'=>'Отзывы','url'=>'/otzyvy'],
                     ['label'=>'Страна Алтай','url'=>'/strana-altai'],
