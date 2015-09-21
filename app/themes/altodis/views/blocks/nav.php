@@ -14,7 +14,7 @@
         </div>
         <div class="header-top">
             <span class="phone">+7 (913) <span>139 46 44</span></span>
-            <a class="mail" href="/">altodis@gmail.com</a>
+            <a class="mail" href="/">altaiodis@gmail.com</a>
             <a class="callback-btn y-btn hidden-xs" href="#">Заказать обратный звонок</a>
         </div>
         <div class="collapse navbar-collapse" id="custom-collapse">
