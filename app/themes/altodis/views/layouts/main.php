@@ -64,11 +64,10 @@ ThemeAsset::register($this);
 <footer class="footer bg-dark">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <p class="copyright font-alt">© 2015 altodis.ru, All Rights Reserved.</p>
+            <div class="col-sm-12">
+                <p class="copyright font-alt">© 2015 altodis.ru, All Rights Reserved. <a href="http://http://www.xn-----6kcbbaft0ay0awd1befpez2o.xn--p1ai/">Создание сайта AWebsite</a></p>
             </div>
-            <div class="col-sm-6">
-            </div>
+
         </div><!-- .row -->
     </div>
 </footer>
